@@ -11,7 +11,6 @@
   inputs.src-names-master.ref   = "refs/heads/master";
   inputs.src-names-master.owner = "pragmagic";
   inputs.src-names-master.repo  = "names";
-  inputs.src-names-master.dir   = "";
   inputs.src-names-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
